@@ -2,6 +2,8 @@
 
 A small Tesla coil that does two things at once: it lights a fluorescent tube from across the table with no wires, and it carries a message through the air on the same field. The coil is a Slayer exciter, the message is keyed onto it by a Raspberry Pi, and a Hamming (7,4) code lets the receiver fix bit errors on the way through.
 
+The work was published as a peer-reviewed conference paper: [**Encoding Data Using Slayer Exciter Circuits with Simultaneous Power and Information Transmission**](https://link.springer.com/chapter/10.1007/978-981-96-0047-2_7), in the proceedings of *Recent Developments in Control, Automation and Power Engineering* (RDCAPE 2023), Springer, 2025.
+
 ## What it does
 
 - **Wireless power.** The secondary coil throws a high-frequency electromagnetic field that lights a fluorescent lamp held near it. No contact, no wires.
@@ -80,3 +82,7 @@ Each returned bit is written to the GPIO pin, held for one bit period, and the p
 ## Where this goes
 
 The same idea scales to wireless charging, short-range sensors, and Li-Fi-style links where light or a field stands in for a cable. The interesting part was never the coil on its own. It was that a single noisy field can deliver energy and a reliable message at the same time.
+
+## Publication
+
+- **Encoding Data Using Slayer Exciter Circuits with Simultaneous Power and Information Transmission.** In *Recent Developments in Control, Automation and Power Engineering (RDCAPE 2023)*, Springer, 2025. DOI: [10.1007/978-981-96-0047-2_7](https://doi.org/10.1007/978-981-96-0047-2_7)
